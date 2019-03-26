@@ -4,8 +4,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  -webkit-animation: backgroundScroll 45s linear 1;
-          animation: backgroundScroll 45s linear 1;
+  -webkit-animation: backgroundScroll 90s linear 1;
+          animation: backgroundScroll 90s linear 1;
   overflow: hidden;
   z-index: -25;
 }
@@ -18,8 +18,8 @@ body {
 .wrapper .spaceProps .sat1 {
   position: relative;
   top: 1350px;
-  -webkit-animation: sat1 9s linear 1;
-          animation: sat1 9s linear 1;
+  -webkit-animation: sat1 19s linear 1;
+          animation: sat1 19s linear 1;
 }
 
 .wrapper .spaceProps .sat1 img {
@@ -29,8 +29,8 @@ body {
 .wrapper .spaceProps .sat2 {
   position: relative;
   top: 1350px;
-  -webkit-animation: sat2 9s linear 3s 1;
-          animation: sat2 9s linear 3s 1;
+  -webkit-animation: sat2 15s linear 25s 1;
+          animation: sat2 15s linear 25s 1;
 }
 
 .wrapper .spaceProps .sat2 img {
@@ -40,8 +40,8 @@ body {
 .wrapper .spaceProps .moon {
   position: relative;
   top: 1350px;
-  -webkit-animation: moon 9s linear 7s 1;
-          animation: moon 9s linear 7s 1;
+  -webkit-animation: moon 15s linear 35s 1;
+          animation: moon 15s linear 35s 1;
 }
 
 .wrapper .spaceProps .moon img {
@@ -51,8 +51,8 @@ body {
 .wrapper .spaceProps .mars {
   position: relative;
   top: 1350px;
-  -webkit-animation: mars 9s 10s linear 1;
-          animation: mars 9s 10s linear 1;
+  -webkit-animation: mars 15s 55s linear 1;
+          animation: mars 15s 55s linear 1;
 }
 
 .wrapper .spaceProps .mars img {
@@ -64,10 +64,17 @@ body {
 }
 
 .wrapper .space #svg8 {
-  position: relative;
-  width: 20vw;
-  -webkit-animation: Shuttle 45s linear 1;
-          animation: Shuttle 45s linear 1;
+  position: fixed;
+  width: 50vw;
+  left: 25vw;
+  bottom: -855px;
+  -webkit-animation: Shuttle 90s linear 1;
+          animation: Shuttle 90s linear 1;
+}
+
+#path4799 {
+  -webkit-transform: translateX(1px);
+          transform: translateX(1px);
 }
 
 @-webkit-keyframes backgroundScroll {
@@ -90,25 +97,31 @@ body {
 
 @-webkit-keyframes Shuttle {
   0% {
-    bottom: 380px;
+    bottom: -855px;
+    left: 15vw;
   }
   50% {
-    bottom: 450px;
+    bottom: -800px;
+    left: 45vw;
   }
   100% {
-    bottom: 380px;
+    bottom: -855px;
+    left: 55px;
   }
 }
 
 @keyframes Shuttle {
   0% {
-    bottom: 380px;
+    bottom: -855px;
+    left: 15vw;
   }
   50% {
-    bottom: 450px;
+    bottom: -800px;
+    left: 45vw;
   }
   100% {
-    bottom: 380px;
+    bottom: -855px;
+    left: 55px;
   }
 }
 
@@ -136,7 +149,7 @@ body {
 
 @-webkit-keyframes sat2 {
   from {
-    top: -200px;
+    top: -1200px;
   }
   to {
     -webkit-transform: rotate(-45deg) translateX(-80px);
@@ -147,7 +160,7 @@ body {
 
 @keyframes sat2 {
   from {
-    top: -200px;
+    top: -1200px;
   }
   to {
     -webkit-transform: rotate(-45deg) translateX(-80px);
@@ -158,7 +171,7 @@ body {
 
 @-webkit-keyframes moon {
   from {
-    top: -200px;
+    top: -1200px;
   }
   to {
     -webkit-transform: rotate(15deg) translateX(8px);
@@ -169,7 +182,7 @@ body {
 
 @keyframes moon {
   from {
-    top: -200px;
+    top: -1200px;
   }
   to {
     -webkit-transform: rotate(15deg) translateX(8px);
@@ -180,7 +193,7 @@ body {
 
 @-webkit-keyframes mars {
   from {
-    top: -200px;
+    top: -1200px;
   }
   to {
     -webkit-transform: rotate(15deg) translateX(8px);
@@ -191,7 +204,7 @@ body {
 
 @keyframes mars {
   from {
-    top: -200px;
+    top: -1200px;
   }
   to {
     -webkit-transform: rotate(15deg) translateX(8px);

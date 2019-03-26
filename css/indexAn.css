@@ -1,0 +1,269 @@
+/* shuttle flames */
+#g5578 {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation: shuttlerock 30s 50s linear;
+          animation: shuttlerock 30s 50s linear;
+}
+
+/* red rocket flames */
+#g5573 {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation: redrock 5s 5s linear;
+          animation: redrock 5s 5s linear;
+}
+
+/* ignition ccentral */
+#g5439 {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation: ignition 5s 2s linear;
+          animation: ignition 5s 2s linear;
+}
+
+/* yellow rocket flames */
+#g5583 {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation: redrock 22s 18s linear;
+          animation: redrock 22s 18s linear;
+}
+
+/* side ignition */
+.dots {
+  position: absolute;
+  opacity: 0;
+  -webkit-animation: sideignition 5s linear;
+          animation: sideignition 5s linear;
+}
+
+/* red rockets */
+#rect4677 {
+  position: absolute;
+  -webkit-animation: redrockets2 15s 12s linear;
+          animation: redrockets2 15s 12s linear;
+}
+
+#path4799 {
+  position: absolute;
+  -webkit-animation: redrockets 15s 12s linear;
+          animation: redrockets 15s 12s linear;
+}
+
+/* yellow rocket */
+#rect4752 {
+  position: absolute;
+  -webkit-animation: yellowrockets 14s 45s linear;
+          animation: yellowrockets 14s 45s linear;
+}
+
+@-webkit-keyframes sideignition {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sideignition {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes ignition {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ignition {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes shuttlerock {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes shuttlerock {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes redrock {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes redrock {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes redrockets {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(555px) translateY(555px);
+            transform: translateX(555px) translateY(555px);
+    visibility: hidden;
+  }
+}
+
+@keyframes redrockets {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(555px) translateY(555px);
+            transform: translateX(555px) translateY(555px);
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes redrockets2 {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(-555px) translateY(555px);
+            transform: translateX(-555px) translateY(555px);
+    visibility: hidden;
+  }
+}
+
+@keyframes redrockets2 {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(-555px) translateY(555px);
+            transform: translateX(-555px) translateY(555px);
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes yellowrockets {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(555px) translatey(555px);
+            transform: translateX(555px) translatey(555px);
+    opacity: 0;
+  }
+}
+
+@keyframes yellowrockets {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(555px) translatey(555px);
+            transform: translateX(555px) translatey(555px);
+    opacity: 0;
+  }
+}

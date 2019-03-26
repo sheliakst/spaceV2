@@ -1,0 +1,174 @@
+/* shuttle flames */
+#g5578 {
+  position: absolute;
+  opacity: 0;
+  animation: shuttlerock 30s 50s linear;
+}
+
+/* red rocket flames */
+#g5573 {
+  position: absolute;
+  opacity: 0;
+  animation: redrock 5s 5s linear;
+}
+
+/* ignition ccentral */
+#g5439 {
+  position: absolute;
+
+  opacity: 0;
+  animation: ignition 5s 2s linear;
+}
+
+/* yellow rocket flames */
+#g5583 {
+  position: absolute;
+  opacity: 0;
+  animation: redrock 22s 18s linear;
+}
+
+/* side ignition */
+.dots {
+  position: absolute;
+  opacity: 0;
+  animation: sideignition 5s linear;
+}
+
+/* red rockets */
+#rect4677 {
+  position: absolute;
+  animation: redrockets2 15s 12s linear;
+}
+#path4799 {
+    position: absolute;
+    animation: redrockets 15s 12s linear;
+  }
+  
+
+/* yellow rocket */
+#rect4752 {
+  position: absolute;
+  animation: yellowrockets 14s 45s linear;
+}
+
+
+@keyframes sideignition {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ignition {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes shuttlerock {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes redrock {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes redrockets {
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(555px) translateY(555px);
+  }
+}
+
+@keyframes redrockets2 {
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(-555px) translateY(555px);
+  }
+}
+
+@keyframes yellowrockets {
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(555px) translatey(555px);
+    opacity: 0;
+
+  }
+}
