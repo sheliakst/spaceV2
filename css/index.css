@@ -1,0 +1,201 @@
+body {
+  background: #292935;
+  background-image: url(../photos/BACKGROUND.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-animation: backgroundScroll 45s linear 1;
+          animation: backgroundScroll 45s linear 1;
+  overflow: hidden;
+  z-index: -25;
+}
+
+.wrapper {
+  z-index: -15;
+  text-align: center;
+}
+
+.wrapper .spaceProps .sat1 {
+  position: relative;
+  top: 1350px;
+  -webkit-animation: sat1 9s linear 1;
+          animation: sat1 9s linear 1;
+}
+
+.wrapper .spaceProps .sat1 img {
+  width: 15vw;
+}
+
+.wrapper .spaceProps .sat2 {
+  position: relative;
+  top: 1350px;
+  -webkit-animation: sat2 9s linear 3s 1;
+          animation: sat2 9s linear 3s 1;
+}
+
+.wrapper .spaceProps .sat2 img {
+  width: 15vw;
+}
+
+.wrapper .spaceProps .moon {
+  position: relative;
+  top: 1350px;
+  -webkit-animation: moon 9s linear 7s 1;
+          animation: moon 9s linear 7s 1;
+}
+
+.wrapper .spaceProps .moon img {
+  width: 25vw;
+}
+
+.wrapper .spaceProps .mars {
+  position: relative;
+  top: 1350px;
+  -webkit-animation: mars 9s 10s linear 1;
+          animation: mars 9s 10s linear 1;
+}
+
+.wrapper .spaceProps .mars img {
+  width: 35vw;
+}
+
+.wrapper .space {
+  display: inline-block;
+}
+
+.wrapper .space #svg8 {
+  position: relative;
+  width: 20vw;
+  -webkit-animation: Shuttle 45s linear 1;
+          animation: Shuttle 45s linear 1;
+}
+
+@-webkit-keyframes backgroundScroll {
+  from {
+    background-position: 50% -9110px;
+  }
+  to {
+    background-position: 50% 0px;
+  }
+}
+
+@keyframes backgroundScroll {
+  from {
+    background-position: 50% -9110px;
+  }
+  to {
+    background-position: 50% 0px;
+  }
+}
+
+@-webkit-keyframes Shuttle {
+  0% {
+    bottom: 380px;
+  }
+  50% {
+    bottom: 450px;
+  }
+  100% {
+    bottom: 380px;
+  }
+}
+
+@keyframes Shuttle {
+  0% {
+    bottom: 380px;
+  }
+  50% {
+    bottom: 450px;
+  }
+  100% {
+    bottom: 380px;
+  }
+}
+
+@-webkit-keyframes sat1 {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(45deg) translateX(180px);
+            transform: rotate(45deg) translateX(180px);
+    top: 1350px;
+  }
+}
+
+@keyframes sat1 {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(45deg) translateX(180px);
+            transform: rotate(45deg) translateX(180px);
+    top: 1350px;
+  }
+}
+
+@-webkit-keyframes sat2 {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(-45deg) translateX(-80px);
+            transform: rotate(-45deg) translateX(-80px);
+    top: 1350px;
+  }
+}
+
+@keyframes sat2 {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(-45deg) translateX(-80px);
+            transform: rotate(-45deg) translateX(-80px);
+    top: 1350px;
+  }
+}
+
+@-webkit-keyframes moon {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(15deg) translateX(8px);
+            transform: rotate(15deg) translateX(8px);
+    top: 1350px;
+  }
+}
+
+@keyframes moon {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(15deg) translateX(8px);
+            transform: rotate(15deg) translateX(8px);
+    top: 1350px;
+  }
+}
+
+@-webkit-keyframes mars {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(15deg) translateX(8px);
+            transform: rotate(15deg) translateX(8px);
+    top: 1350px;
+  }
+}
+
+@keyframes mars {
+  from {
+    top: -200px;
+  }
+  to {
+    -webkit-transform: rotate(15deg) translateX(8px);
+            transform: rotate(15deg) translateX(8px);
+    top: 1350px;
+  }
+}
